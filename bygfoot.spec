@@ -1,13 +1,12 @@
 Summary:	A simple football manager
 Summary(pl):	Prosty menad¿er pi³karski
 Name:		bygfoot
-Version:	1.7.2
+Version:	1.7.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
-# Source0-md5:	c65a3fc29916dab8e6d72071e5e1b639
-# Source0-size:	290422
+# Source0-md5:	a32e5be2bc570ec321d9cb636d7926d1
 URL:		http://bygfoot.sourceforge.net/
 BuildRequires:	gtk+2-devel >= 2:2.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -35,10 +34,12 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+%find_lang %{name}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/*
