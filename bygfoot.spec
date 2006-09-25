@@ -1,7 +1,7 @@
 Summary:	A simple football manager
 Summary(pl):	Prosty menad¿er pi³karski
 Name:		bygfoot
-Version:	1.9.4
+Version:	2.0.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
