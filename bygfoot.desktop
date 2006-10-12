@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Bygfoot
+Comment=A simple football manager
+Comment[pl]=Prosty menadżer piłkarski
+Exec=bygfoot
+Icon=bygfoot_icon.png
+Terminal=false
+Type=Application
+Categories=Game;SportsGame;
+Encoding=UTF-8
+# vi: encoding=utf-8
