@@ -1,5 +1,5 @@
 Summary:	A simple football manager
-Summary(pl):	Prosty menadøer pi≥karski
+Summary(pl.UTF-8):   Prosty menad≈ºer pi≈Çkarski
 Name:		bygfoot
 Version:	2.1.0
 Release:	1
@@ -19,10 +19,10 @@ Bygfoot is a small and simple football manager game featuring some
 international leagues and cups. You manage a team from one such
 league: you form the team and buy and sell players.
 
-%description -l pl
-Bygfoot jest ma≥ym i prostym menadøerem pi≥karskim umoøliwiaj±cym grÍ
-w miÍdzynarodowych ligach i pucharach. Gra polega na tworzeniu druøyny
-oraz kupowaniu i sprzedawaniu zawodnikÛw.
+%description -l pl.UTF-8
+Bygfoot jest ma≈Çym i prostym menad≈ºerem pi≈Çkarskim umo≈ºliwiajƒÖcym grƒô
+w miƒôdzynarodowych ligach i pucharach. Gra polega na tworzeniu dru≈ºyny
+oraz kupowaniu i sprzedawaniu zawodnik√≥w.
 
 %prep
 %setup -q -n %{name}-%{version}-source
