@@ -1,5 +1,5 @@
 Summary:	A simple football manager
-Summary(pl.UTF-8):   Prosty menadżer piłkarski
+Summary(pl.UTF-8):	Prosty menadżer piłkarski
 Name:		bygfoot
 Version:	2.1.0
 Release:	1
