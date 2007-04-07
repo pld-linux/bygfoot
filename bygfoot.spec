@@ -1,12 +1,12 @@
 Summary:	A simple football manager
 Summary(pl.UTF-8):	Prosty menadżer piłkarski
 Name:		bygfoot
-Version:	2.1.0
+Version:	2.1.1
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/bygfoot/%{name}-%{version}-source.tar.bz2
-# Source0-md5:	001790f36d0d3b706c8d39176363ee2f
+# Source0-md5:	d8514dbd49c48400f7dc2e564bc5e1b0
 Source1:	%{name}.desktop
 URL:		http://bygfoot.sourceforge.net/
 BuildRequires:	gettext-devel
