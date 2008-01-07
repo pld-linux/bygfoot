@@ -2,13 +2,15 @@ Summary:	A simple football manager
 Summary(pl.UTF-8):	Prosty menadżer piłkarski
 Name:		bygfoot
 Version:	2.2.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/bygfoot/%{name}-%{version}-source.tar.bz2
 # Source0-md5:	ba8732d53b463a9e97c79a24f89ee857
 Source1:	%{name}.desktop
+Patch0:		%{name}-locale_names.patch
 URL:		http://bygfoot.sourceforge.net/
+BuildRequires:	autoconf
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel >= 2:2.2.0
 BuildRequires:	pkgconfig
@@ -26,8 +28,13 @@ oraz kupowaniu i sprzedawaniu zawodników.
 
 %prep
 %setup -q -n %{name}-%{version}-source
+%patch0 -p1
+
+mv po/zh{,_CN}.po
 
 %build
+%{__aclocal}
+%{__autoconf}
 %configure
 %{__make}
 
