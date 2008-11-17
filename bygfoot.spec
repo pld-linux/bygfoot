@@ -1,12 +1,13 @@
 Summary:	A simple football manager
+Summary(hu.UTF-8):	Egy football menedzser játék
 Summary(pl.UTF-8):	Prosty menadżer piłkarski
 Name:		bygfoot
-Version:	2.2.1
+Version:	2.3.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
-Source0:	http://dl.sourceforge.net/bygfoot/%{name}-%{version}-source.tar.bz2
-# Source0-md5:	cd6479d6517fc26badae4085039e279c
+Source0:	http://dl.sourceforge.net/bygfoot/%{name}-%{version}.tar.bz2
+# Source0-md5:	7df51b476131321ca17a4e8eb037339a
 Source1:	%{name}.desktop
 Patch0:		%{name}-locale_names.patch
 URL:		http://bygfoot.sourceforge.net/
@@ -22,13 +23,18 @@ Bygfoot is a small and simple football manager game featuring some
 international leagues and cups. You manage a team from one such
 league: you form the team and buy and sell players.
 
+%description -l hu.UTF-8
+Bygfoot egy kicsi és egyszerű football menedzser játék, néhány
+nemzetközi ligával és kupával. Te menedzseled a csapatot egy ligában:
+te alakítod a csapatot, eladhatsz és vehetsz játékosokat.
+
 %description -l pl.UTF-8
 Bygfoot jest małym i prostym menadżerem piłkarskim umożliwiającym grę
 w międzynarodowych ligach i pucharach. Gra polega na tworzeniu drużyny
 oraz kupowaniu i sprzedawaniu zawodników.
 
 %prep
-%setup -q -n %{name}-%{version}-source
+%setup -q 
 %patch0 -p1
 
 mv po/zh{,_CN}.po
