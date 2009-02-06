@@ -25,16 +25,17 @@ league: you form the team and buy and sell players.
 
 %description -l hu.UTF-8
 Bygfoot egy kicsi és egyszerű football menedzser játék, néhány
-nemzetközi ligával és kupával. Te menedzseled a csapatot egy ligában:
-te alakítod a csapatot, eladhatsz és vehetsz játékosokat.
+nemzetközi ligával és kupával. Te menedzseled a csapatot egy
+ligában: te alakítod a csapatot, eladhatsz és vehetsz
+játékosokat.
 
 %description -l pl.UTF-8
-Bygfoot jest małym i prostym menadżerem piłkarskim umożliwiającym grę
-w międzynarodowych ligach i pucharach. Gra polega na tworzeniu drużyny
-oraz kupowaniu i sprzedawaniu zawodników.
+Bygfoot jest małym i prostym menadżerem piłkarskim umożliwiającym
+grę w międzynarodowych ligach i pucharach. Gra polega na tworzeniu
+drużyny oraz kupowaniu i sprzedawaniu zawodników.
 
 %prep
-%setup -q 
+%setup -q
 %patch0 -p1
 
 mv po/zh{,_CN}.po
