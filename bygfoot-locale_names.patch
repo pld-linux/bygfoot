@@ -1,11 +1,11 @@
---- bygfoot-2.2.0-source/configure.in.orig	2008-01-07 09:55:55.589979481 +0100
-+++ bygfoot-2.2.0-source/configure.in	2008-01-07 09:56:05.588454150 +0100
+--- bygfoot-2.3.1/configure.in~	2009-02-06 12:52:09.000000000 +0100
++++ bygfoot-2.3.1/configure.in	2009-02-06 12:53:30.000000000 +0100
 @@ -30,7 +30,7 @@
  AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
  
  dnl Add the languages which your application supports here.
--ALL_LINGUAS="de nl fr pl ro bg zh es da sv it"
-+ALL_LINGUAS="de nl fr pl ro bg zh_CN es da sv it"
+-ALL_LINGUAS="de nl fr pl pt_PT pt_BR ro bg zh es da sv it"
++ALL_LINGUAS="de nl fr pl pt pt_BR ro bg zh_CN es da sv it"
  AM_GLIB_GNU_GETTEXT
  
  dnl gstreamer checking
