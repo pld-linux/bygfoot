@@ -13,7 +13,7 @@ Patch0:		%{name}-locale_names.patch
 URL:		http://bygfoot.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	freetype-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.2.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
