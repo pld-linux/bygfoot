@@ -36,7 +36,7 @@ drużyny oraz kupowaniu i sprzedawaniu zawodników.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 mv po/zh{,_CN}.po
 mv po/pt{_PT,}.po
